@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/slicemesh",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Slice timestamps and mesh durations for scripts and CI receipts.",
+  "bin": {
+    "slicemesh": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/slicemesh.git"
+  },
+  "homepage": "https://theworker02.github.io/slicemesh/",
+  "keywords": [
+    "slice",
+    "mesh",
+    "time",
+    "cli",
+    "toolkit"
+  ]
+}
